@@ -1,0 +1,17 @@
+{
+    // use workspace typescript version
+    "typescript.tsdk": "node_modules/typescript/lib",
+
+     // for tailwind css intellisense extension
+     "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+
+    // for clx with tailwind css
+    "tailwindCSS.experimental.classRegex": [
+    ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ]
+}
